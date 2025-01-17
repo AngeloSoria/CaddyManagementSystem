@@ -26,47 +26,23 @@ The **Caddy Management System** is a comprehensive solution designed to streamli
 
 To install the Caddy Management System, follow these steps:
 
-1. Clone the repository:
+1. Download the repository as zip:
+2. Extract it inside the `htdocs` of XAMPP.
+3. Open the `CaddyManagementSystem/` project from htdocs.
+4. Install the necessary dependencies (Must be inside the project folder when executing this via _cmd.exe_):
    ```bash
-   git clone https://github.com/yourusername/CaddyManagementSystem.git
+   composer install
    ```
-2. Navigate to the project directory:
-   ```bash
-   cd CaddyManagementSystem
-   ```
-3. Install the necessary dependencies:
-   ```bash
-   npm install
-   ```
-4. Start the application:
-   ```bash
-   npm start
-   ```
+5. Open XAMPP and start Apache and MySQL:
+   - In the XAMPP Control panel, click the `Admin` button of MySQL (It will open the phpMyAdmin in the browser).
+   - In the project file, local the sql file named `caddy_management_system.sql` inside the `config/` directory.
+   - Import the sql file in the phpMyAdmin (it should import all the required info such as Database and Tables).
 
 ## Usage
 
-1. Open your web browser and navigate to `http://localhost:3000`.
+1. Open your web browser and navigate to `http://localhost/CaddyManagementSystem`.
 2. Register as an admin and log in.
 3. Start managing caddies by adding new caddies, assigning them to golfers, and tracking their performance.
-
-## Contributing
-
-We welcome contributions to the Caddy Management System. To contribute, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch:
-   ```bash
-   git checkout -b feature-branch
-   ```
-3. Make your changes and commit them:
-   ```bash
-   git commit -m "Description of changes"
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin feature-branch
-   ```
-5. Create a pull request.
 
 ## License
 
