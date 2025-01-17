@@ -50,4 +50,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any questions or suggestions, please contact us at [support@caddymanagementsystem.com](mailto:support@caddymanagementsystem.com).
+For any questions or suggestions, please contact us at [imangelosoria@gmail.com](mailto:imangelosoria@gmail.com).
